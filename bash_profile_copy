@@ -74,19 +74,8 @@ function ebcd() {
 	cd ~/
 }
 
-function pmm() {
-	open ~/Desktop/code/prediction-markets/polymarket_monitor_bot/src/open-markets.json
-}
-
 function grsu() {
 	git remote set-url origin $1
-}
-
-function pennies() {
-	cd Desktop/code/prediction-markets/polypuppet/penny-collecting/
-	node ./update_local_penny_json.ts
-	sleep 2
-	open ./penny_collecting.json
 }
 
 function face() {
